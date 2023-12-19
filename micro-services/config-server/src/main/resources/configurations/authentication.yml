@@ -10,16 +10,10 @@ server:
 spring:
   application:
     name: authentication
-  datasource:
-    driver-class-name: org.postgresql.Driver
-    url: jdbc:postgresql://localhost:5432/projectmanagement
-    username: postgres
-    password: root1234
-  jpa:
-    hibernate:
-      ddl-auto: create
-    database: postgresql
-    database-platform: org.hibernate.dialect.PostgreSQLDialect
+  data:
+    mongodb:
+      uri: mongodb+srv://nejmimouhsine:0WXlW1w0WK3sstGJ@cluster0.jwlkj3k.mongodb.net/projectmanagement?retryWrites=true&w=majorit
+      database: projectmanagement
 
 application:
   config:
