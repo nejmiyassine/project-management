@@ -10,10 +10,6 @@ server:
 spring:
   application:
     name: authentication
-  data:
-    mongodb:
-      uri: mongodb+srv://nejmimouhsine:0WXlW1w0WK3sstGJ@cluster0.jwlkj3k.mongodb.net/projectmanagement?retryWrites=true&w=majorit
-      database: projectmanagement
 
 application:
   config:

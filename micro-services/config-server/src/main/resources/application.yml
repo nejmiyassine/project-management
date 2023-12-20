@@ -6,6 +6,10 @@ spring:
     active: native
   application:
     name: config-server
+  data:
+    mongodb:
+      uri: mongodb+srv://nejmimouhsine:Movie_planet1@cluster0.jwlkj3k.mongodb.net/project-management?retryWrites=true&w=majorit
+      database: projectmanagement
   cloud:
     config:
       server:
